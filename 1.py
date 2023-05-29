@@ -1,9 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
-import time
 import json
 
 ser = Service(r"C:/Users/Administrator/.cache/selenium/chromedriver/win32/113.0.5672.63")
